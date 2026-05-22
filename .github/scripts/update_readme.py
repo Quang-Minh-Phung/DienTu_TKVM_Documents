@@ -1,13 +1,12 @@
 import os
-import re
 
 ROOT = "."
 
 IGNORE = [".git", ".github"]
 
-# ==============================
-# COUNT PDF (recursive)
-# ==============================
+# ======================
+# COUNT PDF
+# ======================
 def count_pdf(folder):
     total = 0
     for _, _, files in os.walk(folder):
@@ -16,57 +15,46 @@ def count_pdf(folder):
                 total += 1
     return total
 
-# ==============================
-# ROOT TABLE (README.md)
-# ==============================
-def update_root_readme():
+
+# ======================
+# UPDATE ROOT README
+# ======================
+def update_root():
     folders = [
         d for d in os.listdir(ROOT)
         if os.path.isdir(d) and d not in IGNORE
     ]
 
-    table = "| Thư mục | Số file PDF |\n"
-    table += "|----------|-------------|\n"
-
+    rows = []
     total_all = 0
 
     for f in sorted(folders):
-        count = count_pdf(f)
-        total_all += count
-        table += f"| {f} | {count} |\n"
+        c = count_pdf(f)
+        total_all += c
+        rows.append((f, c))
+
+    table = "| Thư mục | Số file PDF |\n"
+    table += "|----------|-------------|\n"
+
+    for name, c in rows:
+        table += f"| {name} | {c} |\n"
 
     table += f"| **Tổng** | **{total_all}** |\n"
 
-    # đọc README root
-    with open("README.md", "r", encoding="utf-8") as f:
-        content = f.read()
-
-    pattern = re.compile(
-        r"<!-- FILE_COUNT_START -->.*?<!-- FILE_COUNT_END -->",
-        re.DOTALL
-    )
-
-    new_section = f"<!-- FILE_COUNT_START -->\n{table}<!-- FILE_COUNT_END -->"
-
-    updated = pattern.sub(new_section, content)
-
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(updated)
-
-    print("✅ Updated root README")
+    replace_block("README.md", "FILE_COUNT", table)
 
 
-# ==============================
-# DASHBOARD SUBFOLDER
-# ==============================
+# ======================
+# UPDATE DASHBOARD
+# ======================
 def update_dashboard(folder):
-    readme_path = os.path.join(folder, "README.md")
+    readme = os.path.join(folder, "README.md")
 
-    if not os.path.exists(readme_path):
-        print(f"❌ No README in {folder}")
+    if not os.path.exists(readme):
+        print("❌ Missing:", readme)
         return
 
-    subfolders = [
+    subs = [
         d for d in os.listdir(folder)
         if os.path.isdir(os.path.join(folder, d))
     ]
@@ -74,51 +62,51 @@ def update_dashboard(folder):
     data = []
     total = 0
 
-    for sub in subfolders:
-        path = os.path.join(folder, sub)
-        count = count_pdf(path)
-        total += count
-        data.append((sub, count))
+    for s in subs:
+        c = count_pdf(os.path.join(folder, s))
+        total += c
+        data.append((s, c))
 
-    # sort theo số file
     data.sort(key=lambda x: x[1], reverse=True)
 
-    # tạo bảng
-    dashboard = f"📊 **Tổng số PDF:** {total}\n\n"
-    dashboard += "| Subfolder | Số file PDF |\n"
-    dashboard += "|-----------|-------------|\n"
+    text = f"📊 **Tổng số PDF:** {total}\n\n"
+    text += "| Subfolder | Số file PDF |\n"
+    text += "|-----------|-------------|\n"
 
-    for sub, count in data:
-        dashboard += f"| {sub} | {count} |\n"
+    for s, c in data:
+        text += f"| {s} | {c} |\n"
 
-    # đọc README
-    with open(readme_path, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    pattern = re.compile(
-        r"<!-- DASHBOARD_START -->.*?<!-- DASHBOARD_END -->",
-        re.DOTALL
-    )
-
-    new_section = f"<!-- DASHBOARD_START -->\n{dashboard}<!-- DASHBOARD_END -->"
-
-    updated = pattern.sub(new_section, content)
-
-    # nếu KHÔNG match → báo lỗi luôn
-    if content == updated:
-        print(f"⚠️ Pattern NOT found in {readme_path}")
-    else:
-        print(f"✅ Updated dashboard: {folder}")
-
-    with open(readme_path, "w", encoding="utf-8") as f:
-        f.write(updated)
+    replace_block(readme, "DASHBOARD", text)
 
 
-# ==============================
+# ======================
+# CORE (NO REGEX)
+# ======================
+def replace_block(filepath, tag, new_content):
+    start = f"<!-- {tag}_START -->"
+    end = f"<!-- {tag}_END -->"
+
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = f.read()
+
+    if start not in data or end not in data:
+        print(f"⚠️ TAG NOT FOUND in {filepath}")
+        return
+
+    before = data.split(start)[0]
+    after = data.split(end)[1]
+
+    new_data = before + start + "\n" + new_content + end + after
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(new_data)
+
+    print(f"✅ Updated: {filepath}")
+
+
+# ======================
 # MAIN
-# ==============================
+# ======================
 if __name__ == "__main__":
-    update_root_readme()
-
-    # UPDATE DASHBOARD CHO FOLDER CỤ THỂ
+    update_root()
     update_dashboard("Tai_Lieu_Tham_Khao")
