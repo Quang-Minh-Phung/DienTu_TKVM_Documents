@@ -80,21 +80,29 @@ def update_dashboard(folder):
     ]
 
     data = []
-    total = 0
+
+    # ✅ FIX: đếm toàn bộ PDF trong folder (bao gồm cả file trực tiếp)
+    total = count_pdf(folder)
 
     for s in subs:
-        c = count_pdf(os.path.join(folder, s))
-        total += c
+        sub_path = os.path.join(folder, s)
+
+        # chỉ tính PDF riêng của subfolder đó
+        c = count_pdf(sub_path)
         data.append((s, c))
 
     data.sort(key=lambda x: x[1], reverse=True)
 
     text = f"📊 **Tổng số PDF:** {total}\n\n"
-    text += "| Subfolder | Số file PDF |\n"
-    text += "|-----------|-------------|\n"
 
-    for s, c in data:
-        text += f"| {s} | {c} |\n"
+    if data:
+        text += "| Subfolder | Số file PDF |\n"
+        text += "|-----------|-------------|\n"
+
+        for s, c in data:
+            text += f"| {s} | {c} |\n"
+    else:
+        text += "> Không có subfolder\n"
 
     replace_block(readme, "DASHBOARD", text)
 
