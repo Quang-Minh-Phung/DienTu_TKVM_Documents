@@ -14,7 +14,9 @@ def get_folders():
 def count_files(folder):
     count = 0
     for _, _, files in os.walk(folder):
-        count += len(files)
+        for f in files:
+            if f.lower().endswith(".pdf"):
+                count += 1
     return count
 
 folders = sorted(get_folders())
