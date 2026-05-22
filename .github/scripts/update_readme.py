@@ -17,7 +17,32 @@ def count_pdf(folder):
 
 
 # ======================
-# UPDATE ROOT README
+# CORE REPLACE (FIXED)
+# ======================
+def replace_block(filepath, tag, new_content):
+    start = f"<!-- {tag}_START -->"
+    end = f"<!-- {tag}_END -->"
+
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = f.read()
+
+    if start not in data or end not in data:
+        print(f"⚠️ TAG NOT FOUND in {filepath}")
+        return
+
+    before = data.split(start)[0]
+    after = data.split(end)[1]
+
+    new_data = before + start + "\n" + new_content + end + after
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(new_data)
+
+    print(f"✅ Updated: {filepath}")
+
+
+# ======================
+# UPDATE ROOT
 # ======================
 def update_root():
     folders = [
@@ -25,19 +50,15 @@ def update_root():
         if os.path.isdir(d) and d not in IGNORE
     ]
 
-    rows = []
+    table = "| Thư mục | Số file PDF |\n"
+    table += "|----------|-------------|\n"
+
     total_all = 0
 
     for f in sorted(folders):
         c = count_pdf(f)
         total_all += c
-        rows.append((f, c))
-
-    table = "| Thư mục | Số file PDF |\n"
-    table += "|----------|-------------|\n"
-
-    for name, c in rows:
-        table += f"| {name} | {c} |\n"
+        table += f"| {f} | {c} |\n"
 
     table += f"| **Tổng** | **{total_all}** |\n"
 
@@ -45,13 +66,12 @@ def update_root():
 
 
 # ======================
-# UPDATE DASHBOARD
+# UPDATE DASHBOARD (ONE FOLDER)
 # ======================
 def update_dashboard(folder):
     readme = os.path.join(folder, "README.md")
 
     if not os.path.exists(readme):
-        print("❌ Missing:", readme)
         return
 
     subs = [
@@ -80,28 +100,22 @@ def update_dashboard(folder):
 
 
 # ======================
-# CORE (NO REGEX)
+# AUTO SCAN ALL README
 # ======================
-def replace_block(filepath, tag, new_content):
-    start = f"<!-- {tag}_START -->"
-    end = f"<!-- {tag}_END -->"
+def update_all_dashboards():
+    for current_path, dirs, files in os.walk(ROOT):
 
-    with open(filepath, "r", encoding="utf-8") as f:
-        data = f.read()
+        # skip internal folder
+        if any(x in current_path for x in IGNORE):
+            continue
 
-    if start not in data or end not in data:
-        print(f"⚠️ TAG NOT FOUND in {filepath}")
-        return
+        if "README.md" in files:
 
-    before = data.split(start)[0]
-    after = data.split(end)[1]
+            if current_path == ".":
+                continue
 
-    new_data = before + start + "\n" + new_content + end + after
-
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(new_data)
-
-    print(f"✅ Updated: {filepath}")
+            print(f"🔍 Processing: {current_path}")
+            update_dashboard(current_path)
 
 
 # ======================
@@ -109,4 +123,4 @@ def replace_block(filepath, tag, new_content):
 # ======================
 if __name__ == "__main__":
     update_root()
-    update_dashboard("Tai_Lieu_Tham_Khao")
+    update_all_dashboards()
