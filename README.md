@@ -2,6 +2,7 @@
 Kho tài liệu do Minh Ú (phgquangminh) tổng hợp và biên soạn, với định hướng chia sẻ kiến thức nền tảng chuyên ngành Điện tử, xuất phát từ quá trình học tập tại trường Đại học Khoa học Tự nhiên TP.HCM (HCMUS).
 
 ## 📊 Tổng số file
+
 <!-- FILE_COUNT_START -->
 | Thư mục | Số file |
 |--------|--------|
