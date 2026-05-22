@@ -2,8 +2,7 @@
 
 ## 📂 Dashboard tài liệu
 <!-- DASHBOARD_START -->
-📊 **Tổng số PDF:** 0
+📊 **Tổng số PDF:** 14
 
-| Subfolder | Số file PDF |
-|-----------|-------------|
+> Không có subfolder
 <!-- DASHBOARD_END -->
