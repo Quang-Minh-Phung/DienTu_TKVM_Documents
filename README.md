@@ -3,8 +3,8 @@ Kho tài liệu do Minh Ú (phgquangminh) tổng hợp và biên soạn, với �
 
 ## 📊 Tổng số file
 <!-- FILE_COUNT_START -->
-| Thư mục | Số file |
-|----------|---------|
+| Thư mục | Số file PDF |
+|----------|-------------|
 | Tai_Lieu_Tham_Khao | 187 |
 | **Tổng** | **187** |
 <!-- FILE_COUNT_END -->
