@@ -3,15 +3,69 @@ import re
 
 ROOT = "."
 
-IGNORE = [".git", ".github", "scripts"]
+IGNORE = [".git", ".github"]
 
-def get_folders():
-    return [
+# ==============================
+# COUNT PDF (recursive)
+# ==============================
+def count_pdf(folder):
+    total = 0
+    for _, _, files in os.walk(folder):
+        for f in files:
+            if f.lower().endswith(".pdf"):
+                total += 1
+    return total
+
+# ==============================
+# ROOT TABLE (README.md)
+# ==============================
+def update_root_readme():
+    folders = [
         d for d in os.listdir(ROOT)
         if os.path.isdir(d) and d not in IGNORE
     ]
 
-def generate_dashboard(folder):
+    table = "| Thư mục | Số file PDF |\n"
+    table += "|----------|-------------|\n"
+
+    total_all = 0
+
+    for f in sorted(folders):
+        count = count_pdf(f)
+        total_all += count
+        table += f"| {f} | {count} |\n"
+
+    table += f"| **Tổng** | **{total_all}** |\n"
+
+    # đọc README root
+    with open("README.md", "r", encoding="utf-8") as f:
+        content = f.read()
+
+    pattern = re.compile(
+        r"<!-- FILE_COUNT_START -->.*?<!-- FILE_COUNT_END -->",
+        re.DOTALL
+    )
+
+    new_section = f"<!-- FILE_COUNT_START -->\n{table}<!-- FILE_COUNT_END -->"
+
+    updated = pattern.sub(new_section, content)
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(updated)
+
+    print("✅ Updated root README")
+
+
+# ==============================
+# DASHBOARD SUBFOLDER
+# ==============================
+def update_dashboard(folder):
+    readme_path = os.path.join(folder, "README.md")
+
+    if not os.path.exists(readme_path):
+        print(f"❌ No README in {folder}")
+        return
+
     subfolders = [
         d for d in os.listdir(folder)
         if os.path.isdir(os.path.join(folder, d))
@@ -20,95 +74,51 @@ def generate_dashboard(folder):
     data = []
     total = 0
 
-    for sub in sorted(subfolders):
-        sub_path = os.path.join(folder, sub)
-
-        count = 0
-        for _, _, files in os.walk(sub_path):
-            for f in files:
-                if f.lower().endswith(".pdf"):
-                    count += 1
-
+    for sub in subfolders:
+        path = os.path.join(folder, sub)
+        count = count_pdf(path)
         total += count
         data.append((sub, count))
 
-    # tạo table
-    table = f"📊 **Tổng số PDF:** {total}\n\n"
-    table += "| Subfolder | Số file PDF |\n"
-    table += "|-----------|-------------|\n"
+    # sort theo số file
+    data.sort(key=lambda x: x[1], reverse=True)
+
+    # tạo bảng
+    dashboard = f"📊 **Tổng số PDF:** {total}\n\n"
+    dashboard += "| Subfolder | Số file PDF |\n"
+    dashboard += "|-----------|-------------|\n"
 
     for sub, count in data:
-        table += f"| {sub} | {count} |\n"
+        dashboard += f"| {sub} | {count} |\n"
 
-    return table
-
-def update_dashboard(folder):
-    readme_path = os.path.join(folder, "README.md")
-
-    if not os.path.exists(readme_path):
-        return
-
-    table = generate_dashboard(folder)
-
+    # đọc README
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    start = "<!-- DASHBOARD_START -->"
-    end = "<!-- DASHBOARD_END -->"
-
-    new_section = f"{start}\n{table}{end}"
-
-    import re
-    updated = re.sub(
-        f"{start}.*?{end}",
-        new_section,
-        content,
-        flags=re.S
+    pattern = re.compile(
+        r"<!-- DASHBOARD_START -->.*?<!-- DASHBOARD_END -->",
+        re.DOTALL
     )
+
+    new_section = f"<!-- DASHBOARD_START -->\n{dashboard}<!-- DASHBOARD_END -->"
+
+    updated = pattern.sub(new_section, content)
+
+    # nếu KHÔNG match → báo lỗi luôn
+    if content == updated:
+        print(f"⚠️ Pattern NOT found in {readme_path}")
+    else:
+        print(f"✅ Updated dashboard: {folder}")
 
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(updated)
 
-    print(f"✅ Updated dashboard: {folder}")
 
-def count_files(folder):
-    count = 0
-    for _, _, files in os.walk(folder):
-        for f in files:
-            if f.lower().endswith(".pdf"):
-                count += 1
-    return count
+# ==============================
+# MAIN
+# ==============================
+if __name__ == "__main__":
+    update_root_readme()
 
-folders = sorted(get_folders())
-
-table = "| Thư mục | Số file |\n"
-table += "|----------|---------|\n"
-
-total = 0
-
-for f in folders:
-    c = count_files(f)
-    total += c
-    table += f"| {f} | {c} |\n"
-
-table += f"| **Tổng** | **{total}** |\n"
-
-# đọc README
-with open("README.md", "r", encoding="utf-8") as f:
-    content = f.read()
-
-start = "<!-- FILE_COUNT_START -->"
-end = "<!-- FILE_COUNT_END -->"
-
-new_content = re.sub(
-    f"{start}.*?{end}",
-    f"{start}\n{table}{end}",
-    content,
-    flags=re.S
-)
-
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(new_content)
-
-update_dashboard("Tai_Lieu_Tham_Khao")
-print("✅ Updated README")
+    # UPDATE DASHBOARD CHO FOLDER CỤ THỂ
+    update_dashboard("Tai_Lieu_Tham_Khao")
