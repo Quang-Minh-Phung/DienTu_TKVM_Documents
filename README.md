@@ -5,23 +5,21 @@
 </p>
 
 <p align="center">
-  https://img.shields.io/github/repo-size/Quang-Minh-Phung/Electronics__IC_Design__Documents
-  https://img.shields.io/github/last-commit/Quang-Minh-Phung/Electronics__IC_Design__Documents
-  https://img.shields.io/github/stars/Quang-Minh-Phung/Electronics__IC_Design__Documents
-  https://img.shields.io/badge/Focus-IC_Design-blue
+  <img src="https://img.shields.io/github/repo-size/Quang-Minh-Phung/Electronics__IC_Design__Documents" />
+  <img src="https://img.shields.io/github/last-commit/Quang-Minh-Phung/Electronics__IC_Design__Documents" />
+  <img src="https://img.shields.io/github/stars/Quang-Minh-Phung/Electronics__IC_Design__Documents" />
+  <img src="https://img.shields.io/badge/Focus-IC_Design-blue" />
 </p>
 
 <br>
 
 <p align="center">
-  ⚙️ Analog &nbsp;•&nbsp; 🔢 Digital &nbsp;•&nbsp; 🧠 System Thinking
+  ⚙️ Analog &nbsp;•&nbsp; 🔢 Digital &nbsp;•&nbsp; 🧠 System/Subsystem Thinking
 </p>
 
 <p align="center">
-  👉 Xây dựng tư duy thiết kế, kiểm định từ những thứ nhỏ nhất, dễ hiểu nhất — để sau này không lú khi gặp vấn đề lớn 😅
+  👉 Xây dựng tư duy thiết kế — bắt đầu từ những thứ nhỏ nhất, dễ hiểu nhất — để sau này không lú 🐔 😅
 </p>
-
----
 
 👋 Chào bạn,
 
