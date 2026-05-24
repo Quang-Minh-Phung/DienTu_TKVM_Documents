@@ -37,9 +37,9 @@ Mình tạo repo này để lưu trữ các tài liệu mình tự biên soạn 
 - 🧠 Chia sẻ lại kinh nghiệm học và cách tiếp cận.
 
 👉 Bạn có thể dùng repo này như:
-- tài liệu tham khảo.
-- nơi ôn tập kiến thức.
-- hoặc roadmap tự học.
+- Tài liệu tham khảo.
+- Nơi ôn tập kiến thức.
+- Roadmap tự học.
 
 ---
 
