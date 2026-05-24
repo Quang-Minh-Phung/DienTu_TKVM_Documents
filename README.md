@@ -1,7 +1,7 @@
 <h1 align="center">📘 Electronics & IC Design Knowledge Base</h1>
 
 <p align="center">
-  <i>📚 Một nơi lưu trữ, học lại và hệ thống hoá kiến thức IC Design theo cách "dễ nuốt" hơn 😄</i>
+  <i>📚 Một nơi lưu trữ, học lại và hệ thống hoá kiến thức IC Design theo cách "thân thiện, nhẹ nhàng" hơn 😄</i>
 </p>
 
 <p align="center">
@@ -14,11 +14,11 @@
 <br>
 
 <p align="center">
-  ⚙️ Analog &nbsp;•&nbsp; 🔢 Digital &nbsp;•&nbsp; 📡 RF &nbsp;•&nbsp; 🧠 System Thinking
+  ⚙️ Analog &nbsp;•&nbsp; 🔢 Digital &nbsp;•&nbsp; 🧠 System Thinking
 </p>
 
 <p align="center">
-  👉 Build từ những thứ nhỏ nhất, dễ hiểu nhất — để sau này không "gà" 🐔 khi gặp vấn đề lớn 😅
+  👉 Xây dựng tư duy thiết kế, kiểm định từ những thứ nhỏ nhất, dễ hiểu nhất — để sau này không lú khi gặp vấn đề lớn 😅
 </p>
 
 ---
