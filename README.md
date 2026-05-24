@@ -1,7 +1,7 @@
 <h1 align="center">📘 Electronics & IC Design Knowledge Base</h1>
 
 <p align="center">
-  <i>📚 Một nơi lưu trữ, học lại và hệ thống hoá kiến thức IC Design theo cách "thân thiện, nhẹ nhàng" hơn 😄</i>
+  📚 <i>Một nơi lưu trữ, học lại và hệ thống hoá kiến thức IC Design theo cách "thân thiện, nhẹ nhàng" hơn</i> 😄
 </p>
 
 <p align="center">
