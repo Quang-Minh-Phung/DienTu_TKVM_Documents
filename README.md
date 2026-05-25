@@ -137,7 +137,7 @@ Repo hiện tại có 2 thư mục chính (bạn có thể click trực tiếp v
   - Nền tảng của Custom Circuit.
   - Chuyên sâu vào RTL Design.
   - Chuyên sâu vào Design Verification.
-- 🏗 Mình muốn xây dựng repo này thành một knowledge base lâu dài để giúp bạn dễ dàng hơn trong việc tiếp cận miễn phí các kiến thức về Điện Tử - IC Design 😀
+- 🏗 Mình muốn xây dựng repo này thành một knowledge base lâu dài để giúp bạn dễ dàng hơn trong việc ***tiếp cận miễn phí*** các kiến thức về Điện Tử - IC Design 😀
 
 ---
 
