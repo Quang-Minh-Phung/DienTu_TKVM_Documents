@@ -26,7 +26,22 @@
 Mình tên là **Quang Minh** (biệt danh: ***Minh Ú*** 😅), hiện đang làm nhân viên kỹ thuật phục vụ cho Biệt Đội Siêu Anh Hùng Marvell, chi nhánh Việt Nam, thành phố Hồ Chí Minh, quận 7.</P>Chuyên môn của mình là kiểm định thiết kế luận lý, xây dựng môi trường kiểm định và triển khai các mô hình luận lý tương đương để hỗ trợ bản thân và đồng đội các công việc liên quan đến kiểm định thiết kế luận lý cho các hệ thống tăng tốc và xử lý dữ liệu cần lưu trữ 🙂.</P>Mình tạo repo này để lưu trữ các tài liệu mình tự biên soạn và các tài liệu học thuật mình tổng hợp được trong quá trình tự học và làm việc 📚
 
 ![***Minh Ú*** và anh Phụng Hoàng - Quản lý trực tiếp của quản lý trực tiếp của Minh Ú và Minh Ú 😆](https://github.com/Quang-Minh-Phung/Electronics__IC_Design__Documents/blob/main/.github/Minh_U.jpg)
+<p align="center">
 ***Minh Ú*** (trái) và Quản lý trực tiếp của quản lý trực tiếp của Minh Ú và Minh Ú 😆
+</p>
+
+---
+
+## 📊 Tổng số tài liệu
+
+<!-- FILE_COUNT_START -->
+| Thư mục | Số file PDF |
+|----------|-------------|
+| Tai_Lieu_Minh_U | 0 |
+| Tai_Lieu_Tham_Khao | 187 |
+| **Tổng** | **187** |
+<!-- FILE_COUNT_END -->
+
 ---
 
 ## 🚀 Repo này để làm gì?
@@ -98,18 +113,6 @@ Repo hiện tại có 2 thư mục chính (bạn có thể click trực tiếp v
   - File PDF về lý thuyết nhưng đọc vẫn dễ hiểu (chắc vậy 😅).
   - Bài tập / câu hỏi có kèm các lời giải mà mình có thể nghĩ ra 😎.
   - Thiết kế theo từng chủ đề (nếu chủ đề đó tập trung vô thiết kế 🤭).
-
----
-
-## 📊 Tổng số tài liệu
-
-<!-- FILE_COUNT_START -->
-| Thư mục | Số file PDF |
-|----------|-------------|
-| Tai_Lieu_Minh_U | 0 |
-| Tai_Lieu_Tham_Khao | 187 |
-| **Tổng** | **187** |
-<!-- FILE_COUNT_END -->
 
 ---
 
