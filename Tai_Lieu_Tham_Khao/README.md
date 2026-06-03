@@ -10,7 +10,7 @@ Kho tài liệu này gồm các cuốn sách, dặc tả kỹ thuật được:
 
 ## 📂 Dashboard tài liệu
 <!-- DASHBOARD_START -->
-📊 **Tổng số PDF:** 187
+📊 **Tổng số PDF:** 192
 
 | Subfolder | Số file PDF |
 |-----------|-------------|
@@ -27,8 +27,8 @@ Kho tài liệu này gồm các cuốn sách, dặc tả kỹ thuật được:
 | Power_analysis | 7 |
 | PLL | 6 |
 | DFT | 5 |
+| Supporting_Documents | 5 |
 | SECDED | 2 |
-| Supporting_Documents | 0 |
 <!-- DASHBOARD_END -->
 
 ---
