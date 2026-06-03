@@ -10,7 +10,7 @@ Kho tài liệu này gồm các cuốn sách, dặc tả kỹ thuật được:
 
 ## 📂 Dashboard tài liệu
 <!-- DASHBOARD_START -->
-📊 **Tổng số PDF:** 192
+📊 **Tổng số PDF:** 194
 
 | Subfolder | Số file PDF |
 |-----------|-------------|
@@ -24,10 +24,10 @@ Kho tài liệu này gồm các cuốn sách, dặc tả kỹ thuật được:
 | MCTP_SMBus_I2C_CRC | 9 |
 | Dien_Tu_Can_Ban | 9 |
 | DSP | 7 |
+| Supporting_Documents | 7 |
 | Power_analysis | 7 |
 | PLL | 6 |
 | DFT | 5 |
-| Supporting_Documents | 5 |
 | SECDED | 2 |
 <!-- DASHBOARD_END -->
 
