@@ -28,6 +28,7 @@ Kho tài liệu này gồm các cuốn sách, dặc tả kỹ thuật được:
 | PLL | 6 |
 | DFT | 5 |
 | SECDED | 2 |
+| Supporting_Documents | 0 |
 <!-- DASHBOARD_END -->
 
 ---
