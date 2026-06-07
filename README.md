@@ -85,13 +85,14 @@ Nếu gom lại, mấy design nhỏ này hoàn toàn có thể giúp bạn tự 
 
 ## 🧭 Vậy bạn nên bắt đầu tự học từ đâu?
 
-👉 Một tip nhỏ nhưng cực kỳ quan trọng **Luôn đọc file `README.md` trong từng folder nha 😁**
+👉 Một tip nhỏ nhưng cực kỳ quan trọng **Luôn đọc file `README.md` trong mỗi thư mục nha 😁**
 
 Vì đó là nơi mình:
 - Tóm tắt nội dung chính.
 - Gợi ý cách học và chia sẻ hướng tiếp cận hiệu quả cho từng chủ đề.
 
 Cứ nhớ là nên đọc README trước nha, không là dễ bị lú lắm 😆
+
 ---
 
 ## 🧭 Cấu trúc repo
