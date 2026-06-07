@@ -10,14 +10,14 @@ Kho tài liệu này gồm các cuốn sách, dặc tả kỹ thuật được:
 
 ## 📂 Dashboard tài liệu
 <!-- DASHBOARD_START -->
-📊 **Tổng số PDF:** 194
+📊 **Tổng số PDF:** 200
 
 | Subfolder | Số file PDF |
 |-----------|-------------|
 | Firmware_and_Scripting | 28 |
 | RTL_DE__Testbench_DV | 28 |
+| Arch_and_uArch | 27 |
 | High_Speed_Storage | 22 |
-| Arch_and_uArch | 21 |
 | Dien_Tu_Tuong_Tu | 17 |
 | AMBA_protocols | 14 |
 | Dien_Tu_So | 12 |
