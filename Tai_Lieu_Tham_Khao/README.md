@@ -10,7 +10,7 @@ Kho tài liệu này gồm các cuốn sách, dặc tả kỹ thuật được:
 
 ## 📂 Dashboard tài liệu
 <!-- DASHBOARD_START -->
-📊 **Tổng số PDF:** 207
+📊 **Tổng số PDF:** 208
 
 | Subfolder | Số file PDF |
 |-----------|-------------|
@@ -21,10 +21,10 @@ Kho tài liệu này gồm các cuốn sách, dặc tả kỹ thuật được:
 | Dien_Tu_Tuong_Tu | 18 |
 | AMBA_protocols | 14 |
 | Dien_Tu_So | 12 |
+| Dien_Tu_Can_Ban | 10 |
 | MCTP_SMBus_I2C_CRC | 9 |
-| Dien_Tu_Can_Ban | 9 |
-| DSP | 7 |
 | Supporting_Documents | 7 |
+| DSP | 7 |
 | Power_analysis | 7 |
 | PLL | 6 |
 | DFT | 5 |
