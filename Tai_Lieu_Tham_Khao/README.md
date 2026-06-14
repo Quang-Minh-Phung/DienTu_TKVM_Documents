@@ -65,9 +65,10 @@ Quy trình Thiết Kế Vi Mạch thường gồm 2 quy trình chính và luôn 
 - [Điện Tử Số -> CMOS VLSI Custom-based Design](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Dien_Tu_So/CMOS_custom_based)
 - [PLL chuyên sâu](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/PLL)
 ### ***Giai đoạn 3: Bổ sung các kiến thức chuyên sâu***
-Ở giai đoạn này có nghĩa là bạn đang ở vị trí thực tập sinh hoặc bắt đầu trở thành một nhân viên kỹ thuật hoặc kỹ sư Thiết Kế Vi Mạch chính thức 😁
-Từ giai đoạn này thì con đường học tập của mình và bạn sẽ là kế hoạch dài hạn và không có thời gian kết thúc 😅
-Bạn chỉ nên theo hướng dẫn bên dưới nếu bạn đang làm DE hoặc DV mà tập trung vào các thiết kế xử lý và lưu trữ dữ liệu nha 😅 (thực tế thì việc học không hề giới hạn nên bạn có thể tham khảo nếu có đam mê nha 😁)
+Ở giai đoạn này có nghĩa là bạn đang ở vị trí thực tập sinh hoặc bắt đầu trở thành một nhân viên kỹ thuật hoặc kỹ sư Thiết Kế Vi Mạch chính thức 😁<br>
+Từ giai đoạn này thì con đường học tập của mình và bạn sẽ là kế hoạch dài hạn và không có thời gian kết thúc 😅<br>
+Bạn chỉ nên theo hướng dẫn bên dưới nếu bạn đang làm DE hoặc DV mà tập trung vào các thiết kế xử lý và lưu trữ dữ liệu nha 😅 (thực tế thì việc học không hề giới hạn nên bạn có thể tham khảo nếu có đam mê nha 😁):
+
 1. [Kiến Trúc và Vi Kiến Trúc Máy Tính](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Arch_and_uArch)
 2. [DV nâng cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/RTL_DE__Testbench_DV/DV): bỏ qua phần Starter nha do bạn đã xong ở giai đoạn 2.
 3. [Các giao thức, thiết kế lưu trữ tốc độ cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/High_Speed_Storage)
