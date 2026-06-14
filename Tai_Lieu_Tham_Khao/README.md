@@ -83,4 +83,4 @@ Bạn chỉ nên theo hướng dẫn bên dưới nếu bạn đang làm DE ho�
 
 ---
 
-Vậy là mình đã trình bày xong phần hướng dẫn tổng quát, mình chúc bạn học tôt nha 😁
+Vậy là mình đã trình bày xong phần hướng dẫn tổng quát cho toàn bộ thư mục tài liệu tham khảo, mình chúc bạn học tốt nha 😁
