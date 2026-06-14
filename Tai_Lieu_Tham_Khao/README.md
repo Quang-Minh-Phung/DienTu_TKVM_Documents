@@ -52,8 +52,10 @@ Quy trình Thiết Kế Vi Mạch thường gồm 2 quy trình chính và luôn 
 - [Xử lý tín hiệu số](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/DSP)
 - Cân nhắc đọc qua [Điện Tử Công Suất](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Dien_Tu_Tuong_Tu/Power_Electronics) để nắm nền tảng về Power Analysis.
 - Các kiến thức bổ trợ cho công việc: [Linux command, Makefile, Git](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Supporting_Documents)
-##### Nếu bạn học tới đây và cảm thấy vất vả quá 😅, cũng như định hướng của bạn là tập trung vào các công việc như Synthesis/STA, Physical Design, Physical Implementation, Hardware Validation thì bạn có thể trực tiếp nhảy sang học Scripting Languages như Tcl, Python, Perl, Sed và Awk ở [Scripting Language](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting)
-##### Nếu bạn vẫn cảm thấy ổn, có định hướng công việc là RTL DE, DV thì bạn sẽ phải tiếp tục học các phần sau 😁 (khá kinh khủng nha 🐧)
+##### Lưu ý:
+- Nếu bạn học tới đây và cảm thấy vất vả quá 😅, cũng như định hướng của bạn là tập trung vào các công việc như Synthesis/STA, Physical Design, Physical Implementation, Hardware Validation thì bạn có thể trực tiếp nhảy sang học Scripting Languages như Tcl, Python, Perl, Sed và Awk ở [Scripting Language](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting)
+- Nếu bạn vẫn cảm thấy ổn, có định hướng công việc là RTL DE, DV thì bạn sẽ phải tiếp tục học các phần sau 😁 (khá kinh khủng nha 🐧):
+
 - [Lập trình firmware](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting/C)
 - [Cấu trúc dữ liệu và giải thuật](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting/DSA): Bạn nên đọc các tài liệu và giải thuật phần mềm trước khi đọc tài liệu về [giải thuật phần cứng](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/blob/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting/DSA/_DSA_for_VLSI.pdf)
 - [Scripting Languages: Python, Perl, Tcl, Sed và Awk](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting)
@@ -70,12 +72,12 @@ Từ giai đoạn này thì con đường học tập của mình và bạn sẽ
 Bạn chỉ nên theo hướng dẫn bên dưới nếu bạn đang làm DE hoặc DV mà tập trung vào các thiết kế xử lý và lưu trữ dữ liệu nha 😅 (thực tế thì việc học không hề giới hạn nên bạn có thể tham khảo nếu có đam mê nha 😁):
 
 1. [Kiến Trúc và Vi Kiến Trúc Máy Tính](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Arch_and_uArch)
-2. [DV nâng cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/RTL_DE__Testbench_DV/DV): bỏ qua phần Starter nha do bạn đã xong ở giai đoạn 2.
+2. [DV nâng cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/RTL_DE__Testbench_DV/DV): bạn bỏ qua phần Starter nha do bạn đã xong ở giai đoạn 2.
 3. [Các giao thức, thiết kế lưu trữ tốc độ cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/High_Speed_Storage)
 4. [Phát hiện và khôi phục lỗi trong lưu trữ](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/SECDED)
 5. [Các giao thức ngoại vi nâng cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/MCTP_SMBus_I2C_CRC)
 6. [Phân tích công suất](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Power_analysis)
-7. [Các giao thức AMBA nâng cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/AMBA_protocols): tập trung vào các giao thức ngoài 4 giao thức cơ bản ở giai đoạn 2.
+7. [Các giao thức AMBA nâng cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/AMBA_protocols): bạn tập trung vào các giao thức ngoài 4 giao thức thường dùng ở giai đoạn 2 nha 😅.
 8. [MEMS-NEMS](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/MEMS_NEMS): Đây là phần theo chương trình đào tạo cũ của chuyên ngành Điện Tử bên HCMUS 😅, bản thân mình thấy rất có ích trong tư duy công việc nên mình xin đính kèm nha 😁
 
 ---
