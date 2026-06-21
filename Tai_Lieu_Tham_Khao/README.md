@@ -33,6 +33,7 @@ Sau phần thống kê là nơi mình bắt đầu hỗ trợ hướng dẫn b�
 | DFT | 5 |
 | MEMS_NEMS | 5 |
 | SECDED | 2 |
+| Synthesis_STA_PD | 0 |
 <!-- DASHBOARD_END -->
 
 ---
