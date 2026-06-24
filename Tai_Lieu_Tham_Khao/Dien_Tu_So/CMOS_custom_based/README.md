@@ -3,7 +3,7 @@
 ### 🧬 1. Nền Tảng Mạch Tích Hợp Kỹ Thuật Số (Digital IC Design)
 *   **Mục tiêu**: Nắm vững nguyên lý hoạt động của cổng đảo CMOS (Inverter), các cổng logic tĩnh/động, mạch tuần tự (Flip-Flop, Latch) và cách tính toán độ trễ, công suất tiêu thụ ở mức transistor.
 *   **Tài liệu học tập cục bộ**:
-    *   📖 Kinh thánh ngành vi mạch kỹ thuật số: _Digital.Integrated.Circuits.A.Design.Perspective.pdf.
+    *   📖 _Digital.Integrated.Circuits.A.Design.Perspective.pdf.
     *   📖 Giáo trình Digital IC bản cập nhật: _Digital_IC_2nd.pdf.
     *   📖 Giáo trình thiết kế mạch tích hợp: _Digital_Integrated_Circuit_Design.pdf.
 
