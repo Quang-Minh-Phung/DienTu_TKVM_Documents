@@ -1,4 +1,4 @@
-## 📚 Hướng Dẫn Chi Tiết Theo Tài Liệu Hiện Có
+## 📚 Hướng Dẫn Theo Tài Liệu Hiện Có
 
 ### 📐 1. Lý Thuyết Mạch Nền Tảng (Circuit Theory)
 *   **Mục tiêu**: Hiểu cấu trúc mạch điện, các phương pháp phân tích dòng nhánh, điện thế nút, dòng vòng và các định lý mạng (Thevenin, Norton).
