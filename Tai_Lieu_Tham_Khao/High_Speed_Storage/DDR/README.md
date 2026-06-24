@@ -1,1 +1,0 @@
-## Double Data Rate Specifications
