@@ -15,4 +15,4 @@
 ### ⚡ 3. Thiết Kế Mạch Tốc Độ Cao (High-Speed Digital Design)
 *   **Mục tiêu**: Giải quyết các bài toán thực tế khi mạch chạy ở tần số cao, bao gồm hiện tượng phản xạ tín hiệu (Reflection), nhiễu xuyên âm (Crosstalk), hiệu ứng bề mặt (Skin effect) và thiết kế đường truyền (Transmission lines).
 *   **Tài liệu học tập cục bộ**:
-    *   🔥 Cuốn sách "Ma thuật đen" của ngành phần cứng: _High-Speed Digital Design A Handbook of Black Magic.pdf *(nền chung cho các giao tiếp tốc độ cao như PCIe, DDR hoặc thiết kế bo mạch/chip tần số cao)*.
+    *   🔥 _High-Speed Digital Design A Handbook of Black Magic.pdf *(nền chung cho các giao tiếp tốc độ cao như PCIe, DDR hoặc thiết kế bo mạch/chip tần số cao)*.
