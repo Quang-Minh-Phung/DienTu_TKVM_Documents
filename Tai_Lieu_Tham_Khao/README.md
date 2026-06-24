@@ -48,44 +48,44 @@ Bạn hãy bắt đầu bằng việc click vô [Điện Tử Căn Bản](./Dien
 Quy trình Thiết Kế Vi Mạch thường gồm 2 quy trình chính và luôn kết hợp với nhau để tạo ra sản phẩm cuối cùng đó là Cell-based Design Flow và Full-custom Design Flow.
 1. #### **Cell-based Design Flow**:
 Ở quy trình thiết kế này thì bạn đã chọn học sâu vào các thiết kế Digital nhưng vẫn cần nắm căn bản Analog:
-- [Điện Tử Số](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Dien_Tu_So)
-- [Điện Tử Tương Tự -> Op-amp/Mixed-signal](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Dien_Tu_Tuong_Tu/CMOS_OPAMP)
-- [Design For Testability](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/DFT)
-- [Xử lý tín hiệu số](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/DSP)
-- Cân nhắc đọc qua [Điện Tử Công Suất](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Dien_Tu_Tuong_Tu/Power_Electronics) để nắm nền tảng về Power Analysis.
-- Các kiến thức bổ trợ cho công việc: [Linux command, Makefile, Git](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Supporting_Documents)
+- [Điện Tử Số](./Dien_Tu_So)
+- [Điện Tử Tương Tự -> Op-amp/Mixed-signal](./Dien_Tu_Tuong_Tu/CMOS_OPAMP)
+- [Design For Testability](./DFT)
+- [Xử lý tín hiệu số](./DSP)
+- Cân nhắc đọc qua [Điện Tử Công Suất](./Dien_Tu_Tuong_Tu/Power_Electronics) để nắm nền tảng về Power Analysis.
+- Các kiến thức bổ trợ cho công việc: [Linux command, Makefile, Git](./Supporting_Documents)
 ##### Lưu ý:
 - Nếu định hướng của bạn là tập trung vào các công việc như Synthesis/STA, Physical Design/Physical Implementation, Hardware Validation thì bạn sẽ tập trung chỉ học:
 
-  - [Scripting Languages: Python, Perl, Tcl, Sed và Awk](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting)
-  - [Synthesis - Static Timing Analysis (STA) - Physical Design](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Synthesis_STA_PD)
+  - [Scripting Languages: Python, Perl, Tcl, Sed và Awk](./Firmware_and_Scripting)
+  - [Synthesis - Static Timing Analysis (STA) - Physical Design](./Synthesis_STA_PD)
 
 - Nếu bạn vẫn cảm thấy ổn, có định hướng công việc là RTL DE, DV thì bạn sẽ phải tiếp tục học các phần sau 😁 (khá kinh khủng nha 🐧):
 
-  - [Lập trình firmware](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting/C)
-  - [Cấu trúc dữ liệu và giải thuật](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting/DSA): bạn nên đọc các tài liệu và giải thuật phần mềm trước khi đọc tài liệu về [giải thuật phần cứng](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/blob/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting/DSA/_DSA_for_VLSI.pdf)
-  - [Scripting Languages: Python, Perl, Tcl, Sed và Awk](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Firmware_and_Scripting)
-  - [Ngôn ngữ mô tả/thiết kế và kiểm định phần cứng](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/RTL_DE__Testbench_DV): bạn nên bắt đầu ở [RTL](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/RTL_DE__Testbench_DV/RTL_for_synthesis) rồi hãy qua [DV cho người mới bắt đầu](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/RTL_DE__Testbench_DV/DV/Starter) sau khi đã nắm vững mô tả/thiết kế mạch.
-  - Căn bản về Static Timing Analysis: [STA](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/blob/main/Tai_Lieu_Tham_Khao/Synthesis_STA_PD/_STA.pdf)
-  - Các giao thức AMBA thường sử dụng trong kiến trúc SoC: bạn nên bắt đầu theo thứ tự sau: [APB](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/blob/main/Tai_Lieu_Tham_Khao/AMBA_protocols/_apb_architecture_spec.pdf) -> [ASB](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/blob/main/Tai_Lieu_Tham_Khao/AMBA_protocols/_AMBA_Specification_rev2.pdf) -> [AHB](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/blob/main/Tai_Lieu_Tham_Khao/AMBA_protocols/_ahb_protocol_spec.pdf) -> [AXI](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/blob/main/Tai_Lieu_Tham_Khao/AMBA_protocols/_axi_protocol_spec.pdf).
+  - [Lập trình firmware](./Firmware_and_Scripting/C)
+  - [Cấu trúc dữ liệu và giải thuật](./Firmware_and_Scripting/DSA): bạn nên đọc các tài liệu và giải thuật phần mềm trước khi đọc tài liệu về [giải thuật phần cứng](./Firmware_and_Scripting/DSA/_DSA_for_VLSI.pdf)
+  - [Scripting Languages: Python, Perl, Tcl, Sed và Awk](./Firmware_and_Scripting)
+  - [Ngôn ngữ mô tả/thiết kế và kiểm định phần cứng](./RTL_DE__Testbench_DV): bạn nên bắt đầu ở [RTL](./RTL_DE__Testbench_DV/RTL_for_synthesis) rồi hãy qua [DV cho người mới bắt đầu](./RTL_DE__Testbench_DV/DV/Starter) sau khi đã nắm vững mô tả/thiết kế mạch.
+  - Căn bản về Static Timing Analysis: [STA](./Synthesis_STA_PD/_STA.pdf)
+  - Các giao thức AMBA thường sử dụng trong kiến trúc SoC: bạn nên bắt đầu theo thứ tự sau: [APB](./AMBA_protocols/_apb_architecture_spec.pdf) -> [ASB](./AMBA_protocols/_AMBA_Specification_rev2.pdf) -> [AHB](./AMBA_protocols/_ahb_protocol_spec.pdf) -> [AXI](./AMBA_protocols/_axi_protocol_spec.pdf).
 2. #### **Full-custom Design Flow**:
 Ở quy trình thiết kế này thì bạn đã chọn học sâu vào các thiết kế Analog, nhưng vẫn cần nắm căn bản Digital:
-- [Điện Tử Tương Tự](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Dien_Tu_Tuong_Tu): trong đây bạn có thể bỏ qua RF nha do bạn chỉ tập trung học thêm RF nếu bạn làm về các thiết kế siêu cao tần.
-- [Điện Tử Số -> CMOS VLSI Custom-based Design](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Dien_Tu_So/CMOS_custom_based)
-- [PLL chuyên sâu](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/PLL)
+- [Điện Tử Tương Tự](./Dien_Tu_Tuong_Tu): trong đây bạn có thể bỏ qua RF nha do bạn chỉ tập trung học thêm RF nếu bạn làm về các thiết kế siêu cao tần.
+- [Điện Tử Số -> CMOS VLSI Custom-based Design](./Dien_Tu_So/CMOS_custom_based)
+- [PLL chuyên sâu](./PLL)
 ### ***Giai đoạn 3: Bổ sung các kiến thức chuyên sâu***
 Ở giai đoạn này có nghĩa là bạn đang ở vị trí thực tập sinh hoặc bắt đầu trở thành một nhân viên kỹ thuật hoặc kỹ sư Thiết Kế Vi Mạch chính thức 😁<br>
 Từ giai đoạn này thì con đường học tập của mình và bạn sẽ là kế hoạch dài hạn và không có thời gian kết thúc 😅<br>
 Bạn chỉ nên theo hướng dẫn bên dưới nếu bạn đang làm DE hoặc DV mà tập trung vào các thiết kế xử lý và lưu trữ dữ liệu nha 😅 (thực tế thì việc học không hề giới hạn nên bạn có thể tham khảo nếu có đam mê nha 😁):
 
-1. [Kiến Trúc và Vi Kiến Trúc Máy Tính](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Arch_and_uArch)
-2. [DV nâng cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/RTL_DE__Testbench_DV/DV): bạn bỏ qua phần Starter nha do bạn đã xong ở giai đoạn 2.
-3. [Các giao thức, thiết kế lưu trữ tốc độ cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/High_Speed_Storage)
-4. [Phát hiện và khôi phục lỗi trong lưu trữ](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/SECDED)
-5. [Các giao thức ngoại vi nâng cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/MCTP_SMBus_I2C_CRC)
-6. [Phân tích công suất](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Power_analysis)
-7. [Các giao thức AMBA nâng cao](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/AMBA_protocols): bạn tập trung vào các giao thức ngoài 4 giao thức thường dùng ở giai đoạn 2 nha 😅.
-8. [MEMS-NEMS](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/MEMS_NEMS): đây là phần theo chương trình đào tạo cũ của chuyên ngành Điện Tử bên HCMUS 😅, đây cũng là một nhánh hẹp của IC Designs và bản thân mình thấy rất có ích trong tư duy công việc nên mình xin đính kèm nha 😁
+1. [Kiến Trúc và Vi Kiến Trúc Máy Tính](./Arch_and_uArch)
+2. [DV nâng cao](./RTL_DE__Testbench_DV/DV): bạn bỏ qua phần Starter nha do bạn đã xong ở giai đoạn 2.
+3. [Các giao thức, thiết kế lưu trữ tốc độ cao](./High_Speed_Storage)
+4. [Phát hiện và khôi phục lỗi trong lưu trữ](./SECDED)
+5. [Các giao thức ngoại vi nâng cao](./MCTP_SMBus_I2C_CRC)
+6. [Phân tích công suất](./Power_analysis)
+7. [Các giao thức AMBA nâng cao](./AMBA_protocols): bạn tập trung vào các giao thức ngoài 4 giao thức thường dùng ở giai đoạn 2 nha 😅.
+8. [MEMS-NEMS](./MEMS_NEMS): đây là phần theo chương trình đào tạo cũ của chuyên ngành Điện Tử bên HCMUS 😅, đây cũng là một nhánh hẹp của IC Designs và bản thân mình thấy rất có ích trong tư duy công việc nên mình xin đính kèm nha 😁
 
 ---
 
