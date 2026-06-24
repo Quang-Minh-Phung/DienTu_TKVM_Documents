@@ -1,1 +1,0 @@
-# Synthesis - STA - Physical Design
