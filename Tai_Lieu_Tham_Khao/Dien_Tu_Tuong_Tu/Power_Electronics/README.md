@@ -13,4 +13,4 @@
 ### 🧬 3. Giáo Trình Chuyên Sâu Toàn Diện
 *   **Mục tiêu**: Làm chủ kỹ thuật mô hình hóa trung bình trạng thái không gian (State-space averaging), thiết kế bộ lọc từ tính (Nam châm, Cuộn cảm, Biến áp xung) và phân tích độ ổn định vòng phản hồi hệ thống nguồn.
 *   **Tài liệu học tập cục bộ**:
-    *   🔥 "Kinh thánh" ngành Điện tử công suất: _Fundamentals of Power Electronics.pdf.
+    *   🔥 _Fundamentals of Power Electronics.pdf.
