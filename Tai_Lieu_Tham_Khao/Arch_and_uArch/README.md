@@ -1,5 +1,5 @@
 ## 📚 Hướng Dẫn Chi Tiết Theo Tài Liệu Hiện Có
-Bạn có thể tham khảo danh sách các video trên link youtube [Computer Architecture Course](https://youtube.com/playlist?list=PLUDvczyXAbgnY-ij0lzrs-9hzqDocOUfm&si=cOqiMXSuT9KxLE3D) trước khi bắt đầu phần đọc chuyên sâu được liệt kê bên dưới.
+Bạn có thể tham khảo danh sách các video trên link Youtube [Computer Architecture Course](https://youtube.com/playlist?list=PLUDvczyXAbgnY-ij0lzrs-9hzqDocOUfm&si=cOqiMXSuT9KxLE3D) trước khi bắt đầu phần đọc chuyên sâu được liệt kê bên dưới.
 
 ### 🏫 1. Sách Giáo Trình & Kiến Trúc Hệ Thống Nền Tảng
 *   📖 Giáo trình tổng quan toàn diện: _Computer Architecture A Quantitative Approach 6th Edition.pdf
