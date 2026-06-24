@@ -1,1 +1,0 @@
-## Universal Verification Methodology
