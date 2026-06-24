@@ -99,11 +99,11 @@ Cứ nhớ là nên đọc README trước nha, không là dễ bị lú lắm �
 
 Repo hiện tại có 2 thư mục chính (bạn có thể click trực tiếp vào tên để di chuyển đến thư mục bạn quan tâm nha 😄):
 
-### 📚 [Tài liệu tham khảo](https://github.com/Quang-Minh-Phung/Electronics__IC_Design__Documents/tree/main/Tai_Lieu_Tham_Khao)
+### 📚 [Tài liệu tham khảo](./Tai_Lieu_Tham_Khao)
 - Là nơi mình lưu các tài liệu học thuật, đặc tả kỹ thuật.
 - Là nguồn để mình tham khảo khi viết tài liệu chia sẻ đến bạn 😁.
 
-### 📝 [Tài liệu chia sẻ từ Minh Ú](https://github.com/Quang-Minh-Phung/Electronics__IC_Design__Documents/tree/main/Tai_Lieu_Minh_U)
+### 📝 [Tài liệu chia sẻ từ Minh Ú](./Tai_Lieu_Minh_U)
 - Đây là nơi tổng hợp các tài liệu mình tự biên soạn 😎.
 - Bao gồm:
   - File PDF về lý thuyết nhưng đọc vẫn dễ hiểu (chắc vậy 😅).
