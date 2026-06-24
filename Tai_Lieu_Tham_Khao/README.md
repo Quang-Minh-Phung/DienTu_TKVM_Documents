@@ -43,7 +43,7 @@ Sau phần thống kê là nơi mình bắt đầu hỗ trợ hướng dẫn b�
 - Việc học chuyên ngành Điện Tử của bạn có thể chia ra làm 3 giai đoạn sau:
 ### ***Giai đoạn 1: Nền tảng Điện Tử bắt buộc***
 Trước khi bạn chọn hướng Thiết Kế Vi Mạch cụ thể, bạn cần phải nắm vững lý thuyết mạch và các linh kiện nền tảng.
-Bạn hãy bắt đầu bằng việc click vô [Điện Tử Căn Bản](https://github.com/Quang-Minh-Phung/DienTu_TKVM_Documents/tree/main/Tai_Lieu_Tham_Khao/Dien_Tu_Can_Ban) để di chuyển đến thư mục chứa các tài liệu tập trung hoàn toàn vào điện tử căn bản cho dân học Điện Tử thuần 😁
+Bạn hãy bắt đầu bằng việc click vô [Điện Tử Căn Bản](./Dien_Tu_Can_Ban) để di chuyển đến thư mục chứa các tài liệu tập trung hoàn toàn vào điện tử căn bản cho dân học Điện Tử thuần 😁
 ### ***Giai đoạn 2: Lựa chọn định hướng chuyên môn***
 Quy trình Thiết Kế Vi Mạch thường gồm 2 quy trình chính và luôn kết hợp với nhau để tạo ra sản phẩm cuối cùng đó là Cell-based Design Flow và Full-custom Design Flow.
 1. #### **Cell-based Design Flow**:
