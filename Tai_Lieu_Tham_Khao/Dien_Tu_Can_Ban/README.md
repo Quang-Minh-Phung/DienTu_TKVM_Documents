@@ -17,7 +17,7 @@
 ### 🎛️ 3. Thiết Kế Mạch Ứng Dụng Thực Tế (Practical Circuit Design)
 *   **Mục tiêu**: Học cách tư duy thiết kế hệ thống phần cứng, chọn linh kiện, thiết kế schematic và giải quyết các bài toán kỹ thuật thực tế ngoài đời thực.
 *   **Tài liệu học tập cục bộ**:
-    *   🚀 Kinh thánh ngành điện tử phần cứng: _The Art of Electronics 3rd ed [2015].pdf *(dạy tư duy thiết kế mạch thực chiến không nặng nề toán học tính toán phức tạp)*.
+    *   🚀 Điện tử phần cứng: _The Art of Electronics 3rd ed [2015].pdf *(dạy tư duy thiết kế mạch thực chiến không nặng nề toán học tính toán phức tạp)*.
     *   🚀 Nhập môn kỹ sư thực hành: _Electrical_Engineering_101.pdf *(Cung cấp các mẹo, kiến thức nền và kỹ năng thực tế cho người mới bắt đầu)*.
     *   🚀 Thiết kế và ứng dụng mạch: _Electronic Circuit Design and Application.pdf.
 
