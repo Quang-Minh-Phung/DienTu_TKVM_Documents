@@ -11,7 +11,7 @@ Bên cạnh tài liệu, dưới đây là 3 kênh YouTube chất lượng cao s
 
 ---
 
-## 📱 Ứng Dụng Mô Phỏng Trên Điện Thoại (Mobile Apps)
+## 📱 Ứng Dụng Mô Phỏng Trên Điện Thoại
 
 Để tiện cho việc học tập và kiểm tra nhanh kết quả mạch logic ngay trên điện thoại di động (iOS/Android), bạn có thể cài đặt và sử dụng hai ứng dụng trực quan dưới đây:
 
