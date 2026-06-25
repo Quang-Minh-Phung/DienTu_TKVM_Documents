@@ -73,7 +73,7 @@ Quy trình Thiết Kế Vi Mạch thường gồm 2 quy trình chính và luôn 
 Ở quy trình thiết kế này thì bạn đã chọn học sâu vào các thiết kế Analog, nhưng vẫn cần nắm căn bản Digital:
 - [Điện Tử Tương Tự](./Dien_Tu_Tuong_Tu): trong đây bạn có thể bỏ qua RF nha do bạn chỉ tập trung học thêm RF nếu bạn làm về các thiết kế siêu cao tần.
 - [Điện Tử Số -> CMOS VLSI Custom-based Design](./Dien_Tu_So/CMOS_custom_based)
-- [PLL chuyên sâu](./PLL)
+- [PLL chuyên sâu](./PLL): Bạn nên bắt đầu với Design of CMOS Phase-Locked Loops trước nha, từ đó bạn có thể tự tìm đọc các tài liệu PLL còn lại 😁
 ### ***Giai đoạn 3: Bổ sung các kiến thức chuyên sâu***
 Ở giai đoạn này có nghĩa là bạn đang ở vị trí thực tập sinh hoặc bắt đầu trở thành một nhân viên kỹ thuật hoặc kỹ sư Thiết Kế Vi Mạch chính thức 😁<br>
 Từ giai đoạn này thì con đường học tập của mình và bạn sẽ là kế hoạch dài hạn và không có thời gian kết thúc 😅<br>
@@ -81,11 +81,11 @@ Bạn chỉ nên theo hướng dẫn bên dưới nếu bạn đang làm DE ho�
 
 1. [Kiến Trúc và Vi Kiến Trúc Máy Tính](./Arch_and_uArch)
 2. [DV nâng cao](./RTL_DE__Testbench_DV/DV): bạn bỏ qua phần Starter nha do bạn đã xong ở giai đoạn 2.
-3. [Các giao thức, thiết kế lưu trữ tốc độ cao](./High_Speed_Storage)
-4. [Phát hiện và khôi phục lỗi trong lưu trữ](./SECDED)
-5. [Các giao thức ngoại vi nâng cao](./MCTP_SMBus_I2C_CRC)
-6. [Phân tích công suất](./Power_analysis)
-7. [Các giao thức AMBA nâng cao](./AMBA_protocols): bạn tập trung vào các giao thức ngoài 4 giao thức thường dùng ở giai đoạn 2 nha 😅.
+3. [Phát hiện và khôi phục lỗi trong lưu trữ](./SECDED)
+4. [Các giao thức ngoại vi nâng cao](./MCTP_SMBus_I2C_CRC)
+5. [Các giao thức AMBA nâng cao](./AMBA_protocols): bạn tập trung vào các giao thức ngoài 4 giao thức thường dùng ở giai đoạn 2 nha 😅.
+6. [Các giao thức, thiết kế lưu trữ tốc độ cao](./High_Speed_Storage)
+7. [Phân tích công suất](./Power_analysis)
 8. [MEMS-NEMS](./MEMS_NEMS): đây là phần theo chương trình đào tạo cũ của chuyên ngành Điện Tử bên HCMUS 😅, đây cũng là một nhánh hẹp của IC Designs và bản thân mình thấy rất có ích trong tư duy công việc nên mình xin đính kèm nha 😁
 
 ---
