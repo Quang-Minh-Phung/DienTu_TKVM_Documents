@@ -1,7 +1,7 @@
 👋 Chào mừng bạn đến với kho tài liệu học thuật do mình tự tổng hợp để hỗ trợ bạn trong việc tự học Điện Tử, đặc biệt là hướng Thiết Kế Vi Mạch 🙂
 
 Kho tài liệu này gồm các cuốn sách, dặc tả kỹ thuật được:
-1. Giới thiệu trong quá trình mình học chuyên ngành Điện Tử, bởi các giảng viên của chuyên ngành Điện Tử đã có kinh nghiệm trong lĩnh vực Thiết Kế Vi Mạch.
+1. Giới thiệu trong quá trình mình học chuyên ngành Điện Tử, bởi các giảng viên của chuyên ngành Điện Tử.
 2. Chia sẻ bởi các kỹ sư Thiết Kế Vi Mạch ở quy trình Front End, Cell-based/Automatic Design Flow và Full-custom Design Flow trên 20 năm kinh nghiệm.
 3. Mình phải tự mò trong quá trình giải quyết các vấn đề của các công việc được giao trong dự án 😭.
 4. Chia sẻ bởi các bạn thực tập sinh từ BKU, HCMUTE, UIT, TDTU, PTIT mà mình quen trong thời gian mình học tập, làm việc cũng như hướng dẫn kỹ thuật 🥰.
