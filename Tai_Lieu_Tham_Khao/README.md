@@ -41,9 +41,10 @@ Sau phần thống kê là nơi mình bắt đầu hỗ trợ hướng dẫn b�
 ## 📚 Hướng đẫn tự học 😁
 - Thành thật mà nói thì việc bạn theo hướng chuyên ngành Điện Tử, rồi tập trung chuyên sâu vào Thiết Kế Vi Mạch cần bạn ở giai đoạn đầu học phải vững nền tảng, có điều kiến thức sẽ hơi nhàm chán với đa số 😢. Nhưng mình mong là bạn vẫn sẽ giữ vững lộ trình mà mình đề ra sau đây để bạn có thể đi xa hơn với định hướng đã chọn.
 - Việc học chuyên ngành Điện Tử của bạn có thể chia ra làm 3 giai đoạn sau:
-### ***Giai đoạn 1: Nền tảng Điện Tử bắt buộc***
-Trước khi bạn chọn hướng Thiết Kế Vi Mạch cụ thể, bạn cần phải nắm vững lý thuyết mạch và các linh kiện nền tảng.
-Bạn hãy bắt đầu bằng việc click vô [Điện Tử Căn Bản](./Dien_Tu_Can_Ban) để di chuyển đến thư mục chứa các tài liệu tập trung hoàn toàn vào điện tử căn bản cho dân học Điện Tử thuần 😁
+### ***Giai đoạn 1: Nền tảng Điện Tử và Lập Trình Cơ Bản bắt buộc***
+Trước khi bạn chọn hướng Thiết Kế Vi Mạch cụ thể, bạn cần phải nắm vững lý thuyết mạch và các linh kiện nền tảng cũng như ngôn ngữ lập trình nền tảng của Điện Tử, Thiết Kế Vi Mạch.
+- [Điện Tử Căn Bản](./Dien_Tu_Can_Ban)
+- [Căn bản về ngôn Ngữ C và lập trình hướng thủ tục (Procedural-Oriented Programming - POP)](./Firmware_and_Scripting/C): Bạn tìm đọc cuốn C programming language trước kèm tham khảo C ISO standard nha 😁
 ### ***Giai đoạn 2: Lựa chọn định hướng chuyên môn***
 Quy trình Thiết Kế Vi Mạch thường gồm 2 quy trình chính và luôn kết hợp với nhau để tạo ra sản phẩm cuối cùng đó là Cell-based Design Flow và Full-custom Design Flow.
 1. #### **Cell-based Design Flow**:
@@ -62,7 +63,7 @@ Quy trình Thiết Kế Vi Mạch thường gồm 2 quy trình chính và luôn 
 
 - Nếu bạn vẫn cảm thấy ổn, có định hướng công việc là RTL DE, DV thì bạn sẽ phải tiếp tục học các phần sau 😁 (khá kinh khủng nha 🐧):
 
-  - [Lập trình firmware](./Firmware_and_Scripting/C)
+  - [Lập trình firmware](./Firmware_and_Scripting/C): bạn tập trung đọc các tài liệu về Embedded C nha 😁
   - [Cấu trúc dữ liệu và giải thuật](./Firmware_and_Scripting/DSA): bạn nên đọc các tài liệu và giải thuật phần mềm trước khi đọc tài liệu về [giải thuật phần cứng](./Firmware_and_Scripting/DSA/_DSA_for_VLSI.pdf)
   - [Scripting Languages: Python, Perl, Tcl, Sed và Awk](./Firmware_and_Scripting)
   - [Ngôn ngữ mô tả/thiết kế và kiểm định phần cứng](./RTL_DE__Testbench_DV): bạn nên bắt đầu ở [RTL](./RTL_DE__Testbench_DV/RTL_for_synthesis) rồi hãy qua [DV cho người mới bắt đầu](./RTL_DE__Testbench_DV/DV/Starter) sau khi đã nắm vững mô tả/thiết kế mạch.
