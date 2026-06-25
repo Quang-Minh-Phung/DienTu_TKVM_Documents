@@ -1,4 +1,4 @@
-# 🌐 DVCon Proceedings - Kho Lưu Trữ Dành Riêng cho DV
+# 🌐 DVCon Proceedings - Nguồn Tham Khảo Thêm Dành Riêng cho DV
 
 Trang web chính thức: [dvcon-proceedings](https://dvcon-proceedings.org/)
 
@@ -16,11 +16,11 @@ Trang web cho phép bạn khai thác đa dạng bao gồm:
 * **Technical Papers:** Các bài báo báo cáo kỹ thuật ngắn, mô tả giải pháp thực tế cho các bài toán RTL Design và Verification.
 * **Presentation Slides:** Các slide thuyết trình trực quan trực tiếp từ các kỹ sư đầu ngành.
 * **Tutorials & Workshops:** Tài liệu hướng dẫn chuyên sâu về công nghệ và tiêu chuẩn mới (như UVM, SystemVerilog, Portable Stimulus, AI trong EDA).
-* **Posters:** Bản tóm tắt các dự án nghiên cứu dưới dạng áp phích.
+* **Posters:** Bản tóm tắt các dự án nghiên cứu.
 * **Video Recordings:** Các video ghi hình bài thuyết trình on-demand tại hội thảo.
 
 ---
 
 ## 🌟 Đặc Điểm Nổi Bật
-* **Hoàn toàn Miễn phí (Open Access):** Không yêu cầu tài khoản trả phí hay cấu hình truy cập từ trường đại học giống như các kho IEEE Xplore hay ACM. Bạn có thể tải trực tiếp file PDF.
+* **Hoàn toàn Miễn phí:** Không yêu cầu tài khoản trả phí hay cấu hình truy cập từ trường đại học. Bạn có thể tải trực tiếp file PDF.
 * **Cập nhật công nghệ thực tế:** Nguồn tài liệu tốt nhất để cập nhật các tiêu chuẩn công nghiệp, ứng dụng Machine Learning vào EDA, hay thiết kế Chiplet.
