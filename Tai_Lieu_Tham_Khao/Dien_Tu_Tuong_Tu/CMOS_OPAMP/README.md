@@ -14,6 +14,7 @@
         *   _Design of Analog CMOS Integrated Circuits.pdf *(Siêu phẩm của giáo sư Behzad Razavi - cuốn sách bắt buộc phải học thuộc lòng của mọi kỹ sư Analog IC Design)*.
         *   _Analysis-and-Design-of-Analog-Integrated-Circuits.pdf *(đào sâu bản chất vật lý và phân tích toán học cực kỳ nghiêm ngặt)*.
     *   📖 Giáo trình thiết kế mạch tương tự ứng dụng: _CMOS analog circuit design.pdf.
+*   **Danh sách video bài giảng học thuật**: [Razavi Electronics](https://youtube.com/playlist?list=PLyYrySVqmyVPzvVlPW-TTzHhNWg1J_0LU&si=MuHT5l6FWoVef2e9)
 
 ### 📐 3. Quy Trình Thiết Kế & Custom Layout (Custom Design Flow & Layout)
 *   **Mục tiêu**: Học cách đưa sơ đồ nguyên lý (Schematic) ra bản vẽ mạch vật lý (Layout), nắm vững các kỹ thuật Matching (Common-centroid, Interdigitation), xử lý nhiễu nền (Substrate noise), hiệu ứng khoảng cách (LOD, WPE) và quy trình kiểm tra (DRC, LVS).
