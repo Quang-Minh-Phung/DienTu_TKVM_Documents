@@ -1,4 +1,4 @@
-# 🌐 DVCon Proceedings - Nguồn Tham Khảo Thêm Dành Riêng cho DV
+# 🌐 DVCon Proceedings - Nguồn Tham Khảo Thêm Dành Riêng cho Design Verification (DV)
 
 Trang web chính thức: [dvcon-proceedings](https://dvcon-proceedings.org/)
 
