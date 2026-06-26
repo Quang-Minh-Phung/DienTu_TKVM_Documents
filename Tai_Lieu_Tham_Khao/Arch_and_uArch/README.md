@@ -1,4 +1,4 @@
-## 📚 Hướng Dẫn Theo Tài Liệu Hiện Có
+## 📚 Hướng Dẫn Tự Học 😁
 Bạn có thể tham khảo danh sách các video trên link Youtube [Computer Architecture Course](https://youtube.com/playlist?list=PLUDvczyXAbgnY-ij0lzrs-9hzqDocOUfm&si=cOqiMXSuT9KxLE3D) trước khi bắt đầu phần đọc chuyên sâu được liệt kê bên dưới.
 
 ### 🏫 1. Sách Giáo Trình & Kiến Trúc Hệ Thống Nền Tảng
