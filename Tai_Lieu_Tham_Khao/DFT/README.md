@@ -1,4 +1,4 @@
-## 📚 Hướng Dẫn Theo Tài Liệu Hiện Có
+## 📚 Hướng Dẫn Tự Học 😁
 
 ### 📐 1. Nguyên Lý Kiểm Thử & Mô Phỏng Lỗi (Fault Modeling)
 *   **Mục tiêu**: Hiểu tại sao cần kiểm thử phần cứng, các mô hình lỗi (Stuck-at, Transition, Path Delay) và cách tạo vector kiểm thử (ATPG).
