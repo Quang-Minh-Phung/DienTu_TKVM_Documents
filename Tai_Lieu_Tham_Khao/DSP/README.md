@@ -1,4 +1,4 @@
-## 📚 Hướng Dẫn Theo Tài Liệu Hiện Có
+## 📚 Hướng Dẫn Tự Học 😁
 
 Cấu trúc thư mục được chia theo lộ trình học tập, bao gồm các tài liệu nền tảng đến chuyên sâu, bao gồm các sách kinh điển về tín hiệu, thuật toán, và tối ưu hóa phần cứng (VLSI/FPGA).
 
