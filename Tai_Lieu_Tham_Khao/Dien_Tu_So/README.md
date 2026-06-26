@@ -3,11 +3,11 @@
 Bên cạnh tài liệu, dưới đây là 3 kênh YouTube chất lượng cao sẽ hỗ trợ bạn trong quá trình tự học:
 
 *   [**Intermation**](http://www.youtube.com/@Intermation)  
-    *🎯 Trọng tâm:* Chuyên về các bài giảng, bài tập Điện tử số từ cơ bản đến nâng cao. Giải thích cực kỳ chi tiết về cách thiết kế mạch logic, tối giản bìa Karnaugh và phân tích mạch tuần tự từng bước một.
+    *🎯 Trọng tâm:* Chuyên về các bài giảng, bài tập Điện tử số từ cơ bản đến nâng cao. Giải thích cực kỳ chi tiết về cách thiết kế mạch logic, rút gọn Karnaugh Map, phân tích và triển khai các mạch tuần tự (mình khuyến khích bạn nên xem kênh này trong quá trình học để tạo thêm sự hứng thú nha 😁).
 *   [**electrontube4284**](http://www.youtube.com/@electrontube4284)  
     *🎯 Trọng tâm:* Cung cấp các video phân tích mạch nguyên lý hoạt động của các mạch số ở lớp trừu tượng Circuits, Devices, Physics.
 *   [**AdiTeman**](http://www.youtube.com/@AdiTeman)  
-    *🎯 Trọng tâm:* Đây là kênh chuyên dạy các kiến thức về System on Chip (SoC).
+    *🎯 Trọng tâm:* Đây là kênh chuyên dạy các kiến thức về System on Chip (SoC), rất nên xem sau khi bạn đã nắm nền tảng 😁.
 
 ---
 
