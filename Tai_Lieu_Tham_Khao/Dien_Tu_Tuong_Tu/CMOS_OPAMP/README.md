@@ -1,4 +1,4 @@
-## 📚 Hướng Dẫn Theo Tài Liệu Hiện Có
+## 📚 Hướng Dẫn Tự Học 😁
 
 ### 🎛️ 1. Ứng Dụng & Thiết Kế Hệ Thống Với Op-Amp (Op-Amp System Applications)
 *   **Mục tiêu**: Hiểu cấu trúc bên ngoài của Op-Amp, các mạch ứng dụng tuyến tính và phi tuyến (mạch cộng, mạch tích phân, bộ lọc tích cực) và cách tính toán phản hồi.
