@@ -44,7 +44,7 @@ Sau phần thống kê là nơi mình bắt đầu hỗ trợ hướng dẫn b�
 ### ***Giai đoạn 1: Nền tảng Điện Tử và Lập Trình Cơ Bản bắt buộc***
 Trước khi bạn chọn hướng Thiết Kế Vi Mạch cụ thể, bạn cần phải nắm vững lý thuyết mạch và các linh kiện nền tảng cũng như ngôn ngữ lập trình nền tảng của Điện Tử, Thiết Kế Vi Mạch.
 - [Điện Tử Căn Bản](./Dien_Tu_Can_Ban)
-- [Căn bản về ngôn Ngữ C và lập trình hướng thủ tục (Procedural-Oriented Programming - POP)](./Firmware_and_Scripting/C): Bạn tìm đọc cuốn C programming language trước kèm tham khảo C ISO standard nha 😁
+- [Căn bản về ngôn Ngữ C và lập trình hướng thủ tục (Procedural-Oriented Programming - POP)](./Firmware_and_Scripting/C): Bạn tìm đọc cuốn C programming language song song với cuốn Learn C The Hard Way trước kèm tham khảo C ISO standard nha 😁
 ### ***Giai đoạn 2: Lựa chọn định hướng chuyên môn***
 Quy trình Thiết Kế Vi Mạch thường gồm 2 quy trình chính và luôn kết hợp với nhau để tạo ra sản phẩm cuối cùng đó là Cell-based Design Flow và Full-custom Design Flow.
 1. #### **Cell-based Design Flow**:
