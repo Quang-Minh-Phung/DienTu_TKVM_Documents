@@ -33,8 +33,8 @@ Mình tên là **Quang Minh** (biệt danh: ***Minh Ú*** 😅), hiện đang l�
 | Thư mục | Số file PDF |
 |----------|-------------|
 | Tai_Lieu_Minh_U | 0 |
-| Tai_Lieu_Tham_Khao | 225 |
-| **Tổng** | **225** |
+| Tai_Lieu_Tham_Khao | 226 |
+| **Tổng** | **226** |
 <!-- FILE_COUNT_END -->
 
 ---
