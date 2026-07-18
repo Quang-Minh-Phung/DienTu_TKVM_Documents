@@ -27,8 +27,8 @@ Sau phần thống kê là nơi mình bắt đầu hỗ trợ hướng dẫn b�
 | Dien_Tu_Can_Ban | 11 |
 | Supporting_Documents | 10 |
 | MCTP_SMBus_I2C_CRC | 9 |
-| DSP | 7 |
 | Power_analysis | 7 |
+| DSP | 7 |
 | PLL | 6 |
 | DFT | 5 |
 | MEMS_NEMS | 5 |
