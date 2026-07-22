@@ -13,12 +13,12 @@ Sau phần thống kê là nơi mình bắt đầu hỗ trợ hướng dẫn b�
 
 ## 📂 Dashboard tài liệu
 <!-- DASHBOARD_START -->
-📊 **Tổng số PDF:** 232
+📊 **Tổng số PDF:** 233
 
 | Subfolder | Số file PDF |
 |-----------|-------------|
+| Firmware_and_Scripting | 34 |
 | RTL_DE__Testbench_DV | 34 |
-| Firmware_and_Scripting | 33 |
 | Arch_and_uArch | 27 |
 | Dien_Tu_Tuong_Tu | 23 |
 | High_Speed_Storage | 22 |
