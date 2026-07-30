@@ -53,7 +53,7 @@ Quy trình Thiết Kế Vi Mạch thường gồm 2 quy trình chính và luôn 
 - [Điện Tử Tương Tự -> Op-amp/Mixed-signal](./Dien_Tu_Tuong_Tu/CMOS_OPAMP)
 - [Design For Testability](./DFT)
 - [Xử lý tín hiệu số](./DSP)
-- Cân nhắc đọc qua [Điện Tử Công Suất](./Dien_Tu_Tuong_Tu/Power_Electronics) để nắm nền tảng về Power Analysis.
+- Cân nhắc đọc qua [Điện Tử Công Suất](./Dien_Tu_Tuong_Tu/Power_Electronics) để nắm nền tảng về Power Analysis. Phần này bạn có thể bỏ qua nếu bạn không có hứng thú hoặc thời gian học không còn nhiều 🐧
 - Các kiến thức bổ trợ cho công việc: [Linux command, Makefile, Git](./Supporting_Documents)
 ##### Lưu ý:
 - Nếu định hướng của bạn là tập trung vào các công việc như Synthesis/STA, Physical Design/Physical Implementation, Hardware Validation thì bạn sẽ tập trung chỉ học:
@@ -63,7 +63,7 @@ Quy trình Thiết Kế Vi Mạch thường gồm 2 quy trình chính và luôn 
 
 - Nếu bạn vẫn cảm thấy ổn, có định hướng công việc là RTL DE, DV thì bạn sẽ phải tiếp tục học các phần sau 😁 (khá kinh khủng nha 🐧):
 
-  - [Lập trình firmware](./Firmware_and_Scripting/C): bạn tập trung đọc các tài liệu về Embedded C nha 😁
+  - [Lập trình firmware](./Firmware_and_Scripting/C): bạn tập trung đọc các tài liệu về Embedded C và C++ nha 😁
   - [Cấu trúc dữ liệu và giải thuật](./Firmware_and_Scripting/DSA): bạn nên đọc các tài liệu và giải thuật phần mềm trước khi đọc tài liệu về [giải thuật phần cứng](./Firmware_and_Scripting/DSA/_DSA_for_VLSI.pdf)
   - [Scripting Languages: Python, Perl, Tcl, Sed và Awk](./Firmware_and_Scripting)
   - [Ngôn ngữ mô tả/thiết kế và kiểm định phần cứng](./RTL_DE__Testbench_DV): bạn nên bắt đầu ở [RTL](./RTL_DE__Testbench_DV/RTL_for_synthesis) rồi hãy qua [DV cho người mới bắt đầu](./RTL_DE__Testbench_DV/DV/Starter) sau khi đã nắm vững mô tả/thiết kế mạch.
