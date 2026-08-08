@@ -13,7 +13,7 @@ Sau phần thống kê là nơi mình bắt đầu hỗ trợ hướng dẫn b�
 
 ## 📂 Dashboard tài liệu
 <!-- DASHBOARD_START -->
-📊 **Tổng số PDF:** 235
+📊 **Tổng số PDF:** 236
 
 | Subfolder | Số file PDF |
 |-----------|-------------|
@@ -25,7 +25,7 @@ Sau phần thống kê là nơi mình bắt đầu hỗ trợ hướng dẫn b�
 | AMBA_protocols | 14 |
 | Dien_Tu_So | 13 |
 | Dien_Tu_Can_Ban | 11 |
-| Supporting_Documents | 10 |
+| Supporting_Documents | 11 |
 | MCTP_SMBus_I2C_CRC | 9 |
 | DSP | 7 |
 | Power_analysis | 7 |
