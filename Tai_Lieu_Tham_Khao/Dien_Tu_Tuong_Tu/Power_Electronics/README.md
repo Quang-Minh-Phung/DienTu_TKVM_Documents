@@ -10,7 +10,9 @@
 *   **Tài liệu học tập cục bộ**:
     *   🚀 Phân tích chuyên sâu mạch biến đổi: _Power_Electronics_Converters.pdf *(Tập trung mạnh vào cấu trúc sơ đồ nguyên lý, phân tích dòng/áp liên tục và gián đoạn trong các mạch nguồn xung)*.
 
-### 🧬 3. Giáo Trình Chuyên Sâu Toàn Diện
-*   **Mục tiêu**: Làm chủ kỹ thuật mô hình hóa trung bình trạng thái không gian (State-space averaging), thiết kế bộ lọc từ tính (Nam châm, Cuộn cảm, Biến áp xung) và phân tích độ ổn định vòng phản hồi hệ thống nguồn.
+### 🧬 3. Giáo Trình Chuyên Sâu
+*   **Mục tiêu**: Làm chủ kỹ thuật mô hình hóa trung bình trạng thái không gian (State-space averaging), thiết kế bộ lọc từ tính (Nam châm, Cuộn cảm, Biến áp xung), phân tích độ ổn định vòng phản hồi hệ thống nguồn.
 *   **Tài liệu học tập cục bộ**:
     *   🔥 _Fundamentals of Power Electronics.pdf.
+    *   🔥 _switched_inductor_pmic.pdf.
+    *   🔥 _LDO.pdf.
